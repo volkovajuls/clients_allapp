@@ -21,7 +21,6 @@ export default function Profile({ navigation, route }) {
           <View style={styles.buttonConteiner}>
             <UniversalButton text="Чат" /> {/* text="Чат"*/}
             <UniversalButton text="Звонок" active />
-            {/* */}
           </View>
           <Biography person={person} />
         </View>
@@ -38,7 +37,6 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: '#FDFDFD',
-    // padding:10,
   },
   droidSafeArea: {
     flex: 1,
@@ -50,7 +48,6 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     justifyContent: 'space-evenly',
     marginTop: 32,
-    // flex:1,
   },
 
   buttonMore: {

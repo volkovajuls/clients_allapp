@@ -1,7 +1,6 @@
 import { View, StyleSheet, Text, Image } from 'react-native';
 
 export default function Person({person}) {
-  // console.log("on click person", person.name);
   return (
     <View style={styles.personalContainer}>
       <Image
